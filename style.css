@@ -1,0 +1,89 @@
+/* cool diamond horizontal break */
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+ol {
+  color: blue
+
+}
+
+header {
+  background-color: #928C6F;
+  
+}
+
+div {
+  background-color:#C3C48D;
+ 
+}
+
+body {
+  background-color:#D3FAD6
+}
+
+footer {
+    background-color: darkgray;
+    margin: 200px 0 0 0;
+    padding: 20px 0;
+}
+
+h1 {
+  color: white;
+  padding: 60px 0 20px 20px;
+  margin: 0;
+  float: left;
+}
+
+h2 {
+ 
+  color: grey
+  
+}
+
+h3 {
+  color: grey
+}
+
+p {
+  padding-left: 5px;
+}
+
+/* cool diamond horizontal */
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+nav {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 60px 20px 0 0;
+  width: 50%;
+  float: right;
+  color: #fff;
+}
+
+header:after, 
+nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}  
+
+a {
+  color: hotpink;
+}
