@@ -1,14 +1,5 @@
-/* cool diamond horizontal break */
-hr {
-  width: 15px;
-  height: 15px;
-  border: none;
-  background: #000;
-  color: #000;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  transform: rotate(45deg);
-}
+/* Arrangment Styles */
+
 
 ol {
   color: blue
@@ -16,17 +7,13 @@ ol {
 }
 
 header {
-  background-color: #928C6F;
-  
+  text-align:center
+
 }
 
-div {
-  background-color:#C3C48D;
- 
-}
 
 body {
-  background-color:#D3FAD6
+
 }
 
 footer {
@@ -34,26 +21,30 @@ footer {
     margin: 200px 0 0 0;
     padding: 20px 0;
 }
-
+/* All the Text and Font Parameters */
 h1 {
-  color: white;
-  padding: 60px 0 20px 20px;
-  margin: 0;
-  float: left;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif
 }
 
 h2 {
  
-  color: grey
-  
+  color: black
+  font-family: Arial, Helvetica, sans-serif
 }
 
 h3 {
   color: grey
+  font-family: Arial, Helvetica, sans-serif
+}
+
+div {
+  text-align:center
 }
 
 p {
-  padding-left: 5px;
+  
+  font-family: Arial, Helvetica, sans-serif
 }
 
 /* cool diamond horizontal */
@@ -68,22 +59,19 @@ hr {
   transform: rotate(45deg);
 }
 
-nav {
-  border: 1px solid #000;
-  padding: 10px;
-  margin: 60px 20px 0 0;
-  width: 50%;
-  float: right;
-  color: #fff;
+/* Links */
+a:link {
+ background-color: palegreen
 }
 
-header:after, 
-nav:after {
-  content: " ";
-  display: table;
-  clear: both;
-}  
+a:visited {
+ background-color: orchid
+}
 
-a {
-  color: hotpink;
+a:hover {
+  background-color: yellow;
+}
+
+a:active {
+  background-color: red
 }
