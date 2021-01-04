@@ -1,20 +1,23 @@
-/* Arrangment Styles */
-
-
-ol {
-  color: blue
-
-}
+/* Header Styles */
 
 header {
   text-align:center
 
 }
 
+/* Body Styles */
 
 body {
+  background-color:antiquewhite
+}
+
+ol {
+  color: blue
 
 }
+
+
+
 
 footer {
     background-color: darkgray;
